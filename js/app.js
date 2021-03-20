@@ -1,1 +1,3 @@
-console.log("works 222")
+$( document ).ready(function() {
+  // var page = $("body").id
+});
