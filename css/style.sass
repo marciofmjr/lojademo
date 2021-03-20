@@ -1,0 +1,128 @@
+$padding: 24px
+
+*
+  margin: 0
+  padding: 0
+  height: auto
+  box-sizing: border-box
+
+body
+  font-family: Arial
+
+a
+  color: inherit
+  text-decoration: none
+
+.row
+  display: flex
+  width: 100%
+
+.container
+  margin: 0 auto
+  width: 1200px
+
+header
+  display: flex
+  justify-content: space-between
+  justify-items: center
+  align-items: center
+  background: #eee
+  padding: $padding
+
+header .logo
+  font-size: 30px
+
+header .menu
+  display: inline-flex
+
+header .menu li
+  display: inline-flex
+  list-style: none
+
+header .menu a
+  display: block
+  margin: 0 12px
+  height: auto
+
+.page-title
+  display: flex
+  justify-content: center
+  padding: 24px 0
+  width: 100%
+
+.page-title h1
+  font-size: 40px
+  font-weight: bold
+
+.products-slider
+  display: flex
+  justify-content: space-between
+  width: 100%
+
+.products-slider .box
+  width: 30%
+
+  &:hover
+    opacity: 0.8
+
+.products-slider .box .image
+  display: block
+  width: 100%
+  height: 200px
+  background: #aaa
+
+.products-slider .box .name
+  display: block
+  width: 100%
+  margin-top: 12px
+  text-align: center
+  font-size: 22px
+
+.whatsapp
+  position: absolute
+  bottom: $padding
+  right: $padding
+  border-radius: 24px
+  background: green
+  padding: 12px
+  color: #fff
+
+  &:hover
+    opacity: 0.8
+
+.product-detail
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin-top: 40px
+
+.product-detail .image
+  display: inline-flex
+  width: 60%
+  min-height: 300px
+  background: #eee
+
+.product-detail .content
+  align-content: flex-start
+  display: inline-flex
+  flex-wrap: wrap
+  width: 40%
+  padding-left: $padding
+
+.product-detail .content h1
+  font-size: 40px
+  font-weight: bold
+
+.product-detail .content p
+  margin-top: 24px
+
+.buy-button
+  display: inline-flex
+  padding: 12px
+  background: green
+  border-radius: 24px
+  color: #fff
+  margin-top: 24px
+
+  &:hover
+    opacity: 0.8
